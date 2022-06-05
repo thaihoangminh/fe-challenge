@@ -12,6 +12,7 @@ const colors = {
   cadetGrey: '#8F9BB3',
   antiFlashWhite: '#EDF1F7',
   veryLightAzure: '#68b8f8',
+  aliceBlue: '#EEF3FB',
 };
 
 export { colors };
