@@ -33,6 +33,8 @@ const GlobalStyle = createGlobalStyle`
     font-size: 14px;
     color: ${colors.darkGunmetal};
     font-family: 'SF Pro Text', serif;
+    margin: 0;
+    padding: 0;
   }
 `;
 
