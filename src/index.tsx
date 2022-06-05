@@ -12,6 +12,8 @@ import reportWebVitals from './reportWebVitals';
 
 import { BASE_URL } from 'constants/routes';
 
+import { GlobalStyle } from 'styles/globalStyle';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -26,6 +28,7 @@ root.render(
         <Route path={BASE_URL.noMatch} element={<NoMatch />} />
       </Routes>
     </BrowserRouter>
+    <GlobalStyle />
   </React.StrictMode>
 );
 
