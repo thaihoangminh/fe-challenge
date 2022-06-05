@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
-import { PortalProps } from './Portal.type';
+import { PortalProps } from 'components/portal/portal.type';
 
 const portal = document.getElementById('portal') as HTMLDivElement;
 

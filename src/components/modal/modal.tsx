@@ -1,7 +1,7 @@
-import Portal from 'components/portal/Portal';
+import Portal from 'components/portal/portal';
 
-import { ModalProps } from './Modal.type';
-import { Mask, ModalWrap } from './Modal.style';
+import { ModalProps } from 'components/modal/modal.type';
+import { Mask, ModalWrap } from 'components/modal/modal.style';
 
 const Modal = ({ visible, children }: ModalProps) => {
   if (visible) {
