@@ -3,11 +3,12 @@ import styled from 'styled-components/macro';
 import { ButtonProps, ButtonVariant } from 'components/button/button.type';
 
 import { colors } from 'styles/colors';
+import { getLinearGradient } from 'styles/linearGradient';
 
 const getBackgroundColor = ({ variant }: ButtonProps) => {
   return variant === ButtonVariant.Secondary
     ? colors.ghostWhite
-    : `linear-gradient(256.28deg, ${colors.dodgerBlue} 0%, ${colors.crayola} 100%)`;
+    : getLinearGradient();
 };
 
 const getTextColor = ({ variant }: ButtonProps) => {

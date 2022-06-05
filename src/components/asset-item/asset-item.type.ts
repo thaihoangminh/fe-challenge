@@ -1,4 +1,4 @@
-type Currency = 'usd' | 'yen' | 'eur';
+type Currency = 'usd' | 'yen' | 'eur' | 'vnd';
 
 interface AssetItemProps {
   currency: Currency;

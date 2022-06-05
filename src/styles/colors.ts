@@ -8,8 +8,10 @@ const colors = {
   darkGunmetal: '#151A30',
   lightPeriwinkle: '#C5CEE0',
   darkElectricBlue: '#57627B',
+  lightSkyBlue: '#8DC9F9',
   cadetGrey: '#8F9BB3',
   antiFlashWhite: '#EDF1F7',
+  veryLightAzure: '#68b8f8',
 };
 
 export { colors };

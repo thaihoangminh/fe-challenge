@@ -16,9 +16,13 @@ const MAP_CURRENCY = {
   eur: {
     icon: euroIcon,
     label: 'EUR',
-    rate: 30639.44
-  }
-}
-
+    rate: 30639.44,
+  },
+  vnd: {
+    icon: '',
+    label: 'VND',
+    rate: 1,
+  },
+};
 
 export { MAP_CURRENCY };
